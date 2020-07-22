@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+.title{
+    margin: 100px;
+}
+hr{
+    width: 150px;
+    margin: 0 auto;
+    border-bottom: 5px solid rgb(8, 241, 8);
+}
+.title h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 255, 200);
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px;
+}
+form input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.dopositArea{
+    background-color: rgb(84, 11, 255);
+    padding: 8px;
+    border-radius: 10px;
+}
+.dopositArea h5{
+    color: white;
+}
+.balanceArea{
+    background-color: rgb(236, 69, 27);
+    padding: 8px;
+    border-radius: 10px;
+}
+.balanceArea h5{
+    color: white;
+}
+.withdrawArea{
+    background-color: tomato;
+    padding: 8px;
+    border-radius: 10px;
+}
+.withdrawArea h5{
+    color: white;
+}
+.bankArea{
+    margin-top: 100px;
+    padding: 50px;
+    display: none;
+}
+.fontControl{
+    font-size: 40px;
+}
+.box{
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+}
